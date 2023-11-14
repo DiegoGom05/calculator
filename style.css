@@ -1,0 +1,46 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.calc{
+    display: flex;
+    flex-direction: column;
+    background-color: grey;
+    padding: 8px;
+    width: 300px;
+     
+}
+.display{
+    display: flex;
+    height: 100px;
+    font-size: 24px;
+    justify-content: right;
+    background-color: white;
+    margin: 20px;
+    padding: 8px;
+}
+.numbers, .equals, .operator, .clear{
+    font-size: 36px;
+    margin: 4px;
+}
+.buttons{
+    display: flex;
+}
+.row{
+    display: flex;
+    flex-direction: column;
+    margin: 8px;
+    width: 48px;
+}
+.clear{
+    width: 98px;
+}
+.numbers.zero {
+    width: 172px;
+}
+.equals{
+    width: 98px;
+}
